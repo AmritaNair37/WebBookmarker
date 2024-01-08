@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Bookmarker</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+
+   
+</head>
+<body onload="Display()">
+  
+   
+   <div class="form">
+    <h3>Insert url and name for the web page</h3>
+    <form action="" id="form">
+        <p>
+            <input type="text" name="WebsiteName" id="WebsiteName" placeholder="Name">
+        </p>
+
+        <p>
+            <input type="URL" name="URL" id="URL" placeholder="URL">
+        </p>
+
+        <button type="submit" id="submit">Insert</button>
+        <button type="button" id="list">View List</button>
+
+        <!-- <p class="button">
+            <button type="submit" id="submit">Insert</button>
+            <button type="button" id="list">View List</button>
+        </p> -->
+
+    
+    </form>
+
+    <!-- <div class="button-container">
+       
+        <button type="button" id="list">View List</button>
+    </div> -->
+
+    <div id="container">  
+        <p><a href='#' id='close'>&times;</a></p>
+        <div id="yourSites">
+
+        </div>
+    </div>
+   </div>
+
+    <script src="../index.js"></script>
+    
+</body>
+</html>
